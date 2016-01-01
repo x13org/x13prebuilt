@@ -11,7 +11,8 @@ already uses these.  During its installation, it copies the binary version
 corresponding to the operating system it is used on into a
 fixed-within-the-package location.
 
-Consequently, other packages such as [seasonal](http://www.seasonal.website/)
+Consequently, other packages such as the R interface to X-13ARIMA-SEATS
+[seasonal](https://github.com/christophsax/seasonal) (also see [demo website](http://www.seasonal.website/))
 can now depend on [x13binary](https://github.com/x13org/x13binary) and assume
 a working binary they can simply deploy directly.
 
@@ -62,7 +63,7 @@ As stated on the [X-13ARIMA-SEATS site](https://www.census.gov/srd/www/x13as/):
 ### Authors
 
 This [x13prebuild](https://github.com/x13org/x13prebuilt) repository was
-created by Dirk Eddelbuettel, and is being maintained by Dirk Eddelbuettel
+created by Dirk Eddelbuettel, and is maintained by Dirk Eddelbuettel
 and Christoph Sax.
 
 We consider this repository to be open and welcome suggestion (via issue
