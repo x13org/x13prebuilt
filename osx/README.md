@@ -15,11 +15,11 @@ Many thanks!
 
 The binaries were created on OS-X 10.11.2 El Capitan with gfortran 5.2.
 
-## Author
+### Author
 
 Christoph Sax
 
-## Additional License Information
+### Additional License Information
 
 The OS-X tarball contains gfortran libraries licensed under GPL-3.
 
