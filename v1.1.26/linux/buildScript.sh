@@ -18,5 +18,5 @@ wget ${srctgz}
 tar xfz ${file}
 make -f makefile.gf
 echo ""
-echo "Done"
+echo "Done in build directory ${td}"
 ls -l x13asHTML*
