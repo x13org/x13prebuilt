@@ -11,12 +11,12 @@ set -u
 
 srctgz="https://www.census.gov/ts/x13as/unix/x13ashtmlsrc_V1.1_B19.tar.gz"
 file=$(basename ${srctgz})
-
 td=$(tempfile -p x13)
+rm -r $td
 mkdir ${td}
 cd ${td}
 wget ${srctgz}
-tar xfz ${file}
+tar xf ${file}
 make -f makefile.g77
 echo ""
 echo "Done"
