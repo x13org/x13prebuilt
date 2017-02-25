@@ -26,6 +26,13 @@ to deploy binary of [X-13ARIMA-SEATS](https://www.census.gov/srd/www/x13as/).
 The repository is operational for Windows, OS X (Darwin) and Linux (via using
 statically linked binaries).
 
+### Directory Layout
+
+The directories `linux`, `osx` and `windows` are from our initial build round
+and correspond to version 1.1.b19.  The directory `v1.1.26` is from the
+second build round. It now uses a clearly versioned top-level directory name,
+and contains the per-architecture directories within,
+
 ### License Information and Disclaimer
 
 As stated on the [X-13ARIMA-SEATS site](https://www.census.gov/srd/www/x13as/) 
