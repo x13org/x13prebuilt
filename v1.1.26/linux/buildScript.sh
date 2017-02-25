@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Build script for x13ashtml
+# Build script for x13asHTML
 #
 # Copyright (C) 2015 - 2016 Dirk Eddelbuettel
 #
@@ -15,7 +15,7 @@ file=$(basename ${srctgz})
 td=$(mktemp -d -p /tmp x13dirXXXXXX)
 cd ${td}
 wget ${srctgz}
-tar xfz ${file}
+tar xaf ${file}
 make -f makefile.gf
 echo ""
 echo "Done in build directory ${td}"
