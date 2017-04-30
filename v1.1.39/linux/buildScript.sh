@@ -9,7 +9,7 @@
 set -e
 set -u
 
-srctgz="https://www.census.gov/ts/x13as/unix/x13ashtmlsrc_V1.1_B26.tar.gz"
+srctgz="https://www.census.gov/ts/x13as/unix/x13ashtmlsrc_V1.1_B39.tar.gz"
 file=$(basename ${srctgz})
 
 td=$(mktemp -d -p /tmp x13dirXXXXXX)
