@@ -14,7 +14,7 @@ applied before in [Gretl](http://gretl.sourceforge.net/mac-intel-quartz.html).
 Many thanks!
 
 The binaries were created on macOS 10.12.4 Sierra with 
-[gfortran 6.2](https://gcc.gnu.org/wiki/GFortranBinaries).
+[gfortran 6.3](https://gcc.gnu.org/wiki/GFortranBinaries).
 
 ### Author
 
