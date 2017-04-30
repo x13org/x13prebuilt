@@ -9,7 +9,7 @@
 set -e
 set -u
 
-DLURL="https://www.census.gov/ts/x13as/unix/x13ashtmlsrc_V1.1_B26.tar.gz"
+DLURL="https://www.census.gov/ts/x13as/unix/x13ashtmlsrc_V1.1_B39.tar.gz"
 
 # temporary direction for installation
 mkdir -p /tmp/x13dl
@@ -19,7 +19,7 @@ cd /tmp/x13dl
 
 # download
 curl -s -k -L -O $DLURL
-tar xzv -C /tmp/x13ashtmlsrc -f x13ashtmlsrc_V1.1_B26.tar.gz
+tar xzv -C /tmp/x13ashtmlsrc -f x13ashtmlsrc_V1.1_B39.tar.gz
 
 # prepare source code
 cd /tmp/x13ashtmlsrc
@@ -34,7 +34,7 @@ mv Acf.f acf.f
 make -f makefile.gfortran
 
 # rename resulting binary
-mv x13asHTMLv11b26o1 x13ashtml
+mv x13asHTMLv11b39 x13ashtml
 
 mkdir -p /tmp/x13ashtml/bin
 mkdir -p /tmp/x13ashtml/lib
