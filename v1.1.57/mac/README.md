@@ -1,9 +1,9 @@
 
 ## macOS binaries
 
-These binaries were created via
+These binaries were created via this
 [buildScript.sh](https://github.com/x13org/x13prebuilt/tree/master/osx/buildScript.sh)
-in this directory. It downloads the tarball, expands it and
+also containted in this directory. It downloads the tarball, expands it and
 calls `make`. 
 
 On macOS, static linking is not possible. In order to build a portable
@@ -13,7 +13,7 @@ needed Fortran libraries in the tarball, then changed the path with Apple's
 applied before in [Gretl](http://gretl.sourceforge.net/mac-intel-quartz.html).
 Many thanks!
 
-The binaries were created on macOS 11.4 Big Sur with gfortran 8.2.0 (via Homebrew)
+The binaries were created on macOS 11.4 Big Sur with gfortran 8.2.0 (via Homebrew).
 
 ### Author
 
