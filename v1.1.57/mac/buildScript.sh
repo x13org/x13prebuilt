@@ -73,5 +73,5 @@ install_name_tool -change /usr/local/gfortran/lib/libgcc_s.1.dylib  @executable_
 install_name_tool -change /usr/local/gfortran/lib/libquadmath.0.dylib  @executable_path/../lib/libquadmath.0.dylib x13ashtml
 
 cd /tmp
-tar -cvf x13ashtml.tar.gz x13ashtml
+tar -czvf x13ashtml.tar.gz x13ashtml
 
